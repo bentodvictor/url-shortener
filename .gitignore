@@ -128,3 +128,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Arquivos de compilação TypeScript
+*.js
+*.js.map
+
+# Arquivos de configuração do TypeScript
+tsconfig.json
+tsconfig.tsbuildinfo
+
+# Arquivos de dependências do TypeScript
+*.d.ts

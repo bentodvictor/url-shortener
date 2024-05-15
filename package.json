@@ -1,0 +1,44 @@
+{
+  "name": "timestamp-api",
+  "version": "1.0.0",
+  "description": "Timestamp API project",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bentodvictor/timestamp-api.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "freecodecamp"
+  ],
+  "author": "Victor Dallagnol Bento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bentodvictor/timestamp-api/issues"
+  },
+  "homepage": "https://github.com/bentodvictor/timestamp-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.6.1",
+    "mongoose": "^8.3.4",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/shortid": "^0.0.32",
+    "@types/valid-url": "^1.0.7",
+    "typescript": "^5.4.5"
+  }
+}
